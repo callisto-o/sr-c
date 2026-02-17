@@ -1,130 +1,130 @@
 # Полная блокировка IPv6 трафика
-IP-CIDR,FC00::/7,REJECT
-IP-CIDR,FE80::/10,REJECT
-IP-CIDR,::/0,REJECT
+IP-CIDR,FC00::/7
+IP-CIDR,FE80::/10
+IP-CIDR,::/0
 
 # блокировка UDP на 443 порту
-# AND,((PROTOCOL,UDP),(DST-PORT,443)),REJECT
+# AND,((PROTOCOL,UDP),(DST-PORT,443))
 
 # блокировка UDP на 123 порту
-# AND,((PROTOCOL,UDP),(DST-PORT,123)),REJECT
+# AND,((PROTOCOL,UDP),(DST-PORT,123))
 
 # разрешаем DNS DIRECT на стандартном порту
-# AND,((PROTOCOL,UDP),(DST-PORT,53)),DIRECT
+# AND,((PROTOCOL,UDP),(DST-PORT,53))
 
 # Блокировка всего остального UDP
-# AND,((PROTOCOL,UDP)),REJECT
+# AND,((PROTOCOL,UDP))
 
 # push apple
-# DOMAIN-SUFFIX,push.apple.com,REJECT
-# DOMAIN-SUFFIX,courier.push.apple.com,REJECT
+# DOMAIN-SUFFIX,push.apple.com
+# DOMAIN-SUFFIX,courier.push.apple.com
 
 
 # Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play
-DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com,REJECT
+DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 # Сервис логирования событий Firebase Analytics.
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 # Отправка отчетов о критических ошибках и вылетах приложения.
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com,REJECT
-DOMAIN-KEYWORD,crashlytics,REJECT
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
+DOMAIN-KEYWORD,crashlytics
 # Firebase Installations Block
 # отправляет данные об устройстве, чтобы создать уникальный ID токен «установки»
 # при проблемах перевести в положение DIRECT
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,REJECT
-DOMAIN-KEYWORD,firebaseinstallations,REJECT
-DOMAIN-KEYWORD,firebaselogging,REJECT
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+DOMAIN-KEYWORD,firebaseinstallations
+DOMAIN-KEYWORD,firebaselogging
 
 # блок доменов
-DOMAIN,alt-ad.mail.ru,REJECT
-DOMAIN,rv.mail.ru,REJECT
-DOMAIN,r0.mail.ru,REJECT
-DOMAIN,ads.taxiaid.org,REJECT
+DOMAIN,alt-ad.mail.ru
+DOMAIN,rv.mail.ru
+DOMAIN,r0.mail.ru
+DOMAIN,ads.taxiaid.org
 
 # блок суффиксов
-DOMAIN-SUFFIX,graph.facebook.com,REJECT
-DOMAIN-SUFFIX,connect.facebook.net,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
-DOMAIN-SUFFIX,firebase-settings.googleapis.com,REJECT
-DOMAIN-SUFFIX,google-analytics.com,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
-DOMAIN-SUFFIX,googletagservices.com,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,ads.adfox.ru,REJECT
-DOMAIN-SUFFIX,an.yandex.ru,REJECT
-DOMAIN-SUFFIX,amc.yandex.ru,REJECT
-DOMAIN-SUFFIX,ad.adriver.ru,REJECT
-DOMAIN-SUFFIX,mc.yandex.ru,REJECT
-DOMAIN-SUFFIX,redirect.appmetrica.yandex.com,REJECT
-DOMAIN-SUFFIX,report.appmetrica.yandex.net,REJECT
-DOMAIN-SUFFIX,register.appattest.apple.com,REJECT
-DOMAIN-SUFFIX,rosenberg.appmetrica.yandex.net,REJECT
-DOMAIN-SUFFIX,startup.appmetrica.yango.com,REJECT
-DOMAIN-SUFFIX,ad.mail.ru,REJECT
-DOMAIN-SUFFIX,ads.mail.ru,REJECT
-DOMAIN-SUFFIX,target.mail.ru,REJECT
-DOMAIN-SUFFIX,target.my.com,REJECT
-DOMAIN-SUFFIX,rs.mail.ru,REJECT
-DOMAIN-SUFFIX,rb.mail.ru,REJECT
-DOMAIN-SUFFIX,top-fwz1.mail.ru,REJECT
-DOMAIN-SUFFIX,radar.imgsmail.ru,REJECT
-DOMAIN-SUFFIX,apptracer.ru,REJECT
-DOMAIN-SUFFIX,metrica.yandex.com,REJECT
-DOMAIN-SUFFIX,startup.mobile.webvisor.com,REJECT
-DOMAIN-SUFFIX,startup-mobile.ap.yandex-net.ru,REJECT
-DOMAIN-SUFFIX,startup.mobile.yandex.net,REJECT
-DOMAIN-SUFFIX,narwhal.yandex.net,REJECT
-DOMAIN-SUFFIX,log.strm.yandex.ru,REJECT
-DOMAIN-SUFFIX,browser-resources.s3.yandex.net,REJECT
-DOMAIN-SUFFIX,landing-resources.s3.yandex.net,REJECT
-DOMAIN-SUFFIX,video-preview.s3.yandex.net,REJECT
-DOMAIN-SUFFIX,frontend.vh.yandex.ru,REJECT
-DOMAIN-SUFFIX,mobile-metrica.cabconnect.org,REJECT
-DOMAIN-SUFFIX,gloryads.ru,REJECT
-DOMAIN-SUFFIX,api.browser.yandex.ru,REJECT
-DOMAIN-SUFFIX,api.browser.yandex.com,REJECT
-DOMAIN-SUFFIX,plus.yandex.net,REJECT
-DOMAIN-SUFFIX,api.plus.yandex.net,REJECT
-DOMAIN-SUFFIX,care.yandex.ru,REJECT
-DOMAIN-SUFFIX,uniproxy.alice.yandex.net,REJECT
-DOMAIN-SUFFIX,lavka.yandex.net,REJECT
-DOMAIN-SUFFIX,music.yandex.ru,REJECT
-DOMAIN-SUFFIX,media-adv.market.yandex.ru,REJECT
-DOMAIN-SUFFIX,appcenter.ms,REJECT
-DOMAIN-SUFFIX,mobile.events.data.microsoft.com,REJECT
-DOMAIN-SUFFIX,telemetry.individual.githubcopilot.com,REJECT
-DOMAIN-SUFFIX,moloco.com,REJECT
-DOMAIN-SUFFIX,unity3d.com,REJECT
-DOMAIN-SUFFIX,mintegral.net,REJECT
+DOMAIN-SUFFIX,graph.facebook.com
+DOMAIN-SUFFIX,connect.facebook.net
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,firebase-settings.googleapis.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,ads.adfox.ru
+DOMAIN-SUFFIX,an.yandex.ru
+DOMAIN-SUFFIX,amc.yandex.ru
+DOMAIN-SUFFIX,ad.adriver.ru
+DOMAIN-SUFFIX,mc.yandex.ru
+DOMAIN-SUFFIX,redirect.appmetrica.yandex.com
+DOMAIN-SUFFIX,report.appmetrica.yandex.net
+DOMAIN-SUFFIX,register.appattest.apple.com
+DOMAIN-SUFFIX,rosenberg.appmetrica.yandex.net
+DOMAIN-SUFFIX,startup.appmetrica.yango.com
+DOMAIN-SUFFIX,ad.mail.ru
+DOMAIN-SUFFIX,ads.mail.ru
+DOMAIN-SUFFIX,target.mail.ru
+DOMAIN-SUFFIX,target.my.com
+DOMAIN-SUFFIX,rs.mail.ru
+DOMAIN-SUFFIX,rb.mail.ru
+DOMAIN-SUFFIX,top-fwz1.mail.ru
+DOMAIN-SUFFIX,radar.imgsmail.ru
+DOMAIN-SUFFIX,apptracer.ru
+DOMAIN-SUFFIX,metrica.yandex.com
+DOMAIN-SUFFIX,startup.mobile.webvisor.com
+DOMAIN-SUFFIX,startup-mobile.ap.yandex-net.ru
+DOMAIN-SUFFIX,startup.mobile.yandex.net
+DOMAIN-SUFFIX,narwhal.yandex.net
+DOMAIN-SUFFIX,log.strm.yandex.ru
+DOMAIN-SUFFIX,browser-resources.s3.yandex.net
+DOMAIN-SUFFIX,landing-resources.s3.yandex.net
+DOMAIN-SUFFIX,video-preview.s3.yandex.net
+DOMAIN-SUFFIX,frontend.vh.yandex.ru
+DOMAIN-SUFFIX,mobile-metrica.cabconnect.org
+DOMAIN-SUFFIX,gloryads.ru
+DOMAIN-SUFFIX,api.browser.yandex.ru
+DOMAIN-SUFFIX,api.browser.yandex.com
+DOMAIN-SUFFIX,plus.yandex.net
+DOMAIN-SUFFIX,api.plus.yandex.net
+DOMAIN-SUFFIX,care.yandex.ru
+DOMAIN-SUFFIX,uniproxy.alice.yandex.net
+DOMAIN-SUFFIX,lavka.yandex.net
+DOMAIN-SUFFIX,music.yandex.ru
+DOMAIN-SUFFIX,media-adv.market.yandex.ru
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,mobile.events.data.microsoft.com
+DOMAIN-SUFFIX,telemetry.individual.githubcopilot.com
+DOMAIN-SUFFIX,moloco.com
+DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,mintegral.net
 
 # блок по ключевым словам
-DOMAIN-KEYWORD,mobile-metrica,REJECT
-DOMAIN-KEYWORD,appmetrica,REJECT
-DOMAIN-KEYWORD,webvisor,REJECT
-DOMAIN-KEYWORD,yandexadexchange,REJECT
-DOMAIN-KEYWORD,adfox,REJECT
-DOMAIN-KEYWORD,mradx,REJECT
-DOMAIN-KEYWORD,adjust,REJECT
-DOMAIN-KEYWORD,appsflyer,REJECT
-DOMAIN-KEYWORD,amplitude,REJECT
-DOMAIN-KEYWORD,mixpanel,REJECT
-DOMAIN-KEYWORD,segment.io,REJECT
-DOMAIN-KEYWORD,branch.io,REJECT
-DOMAIN-KEYWORD,doubleclick,REJECT
-DOMAIN-KEYWORD,googleadservices,REJECT
-DOMAIN-KEYWORD,googlesyndication,REJECT
-DOMAIN-KEYWORD,applovin,REJECT
-DOMAIN-KEYWORD,applvn,REJECT
-DOMAIN-KEYWORD,vungle,REJECT
-DOMAIN-KEYWORD,rayjump,REJECT
-DOMAIN-KEYWORD,ironsrc,REJECT
-DOMAIN-KEYWORD,unityads,REJECT
-DOMAIN-KEYWORD,mopub,REJECT
-DOMAIN-KEYWORD,inmobi,REJECT
-DOMAIN-KEYWORD,sentry.io,REJECT
-DOMAIN-KEYWORD,bugsnag,REJECT
+DOMAIN-KEYWORD,mobile-metrica
+DOMAIN-KEYWORD,appmetrica
+DOMAIN-KEYWORD,webvisor
+DOMAIN-KEYWORD,yandexadexchange
+DOMAIN-KEYWORD,adfox
+DOMAIN-KEYWORD,mradx
+DOMAIN-KEYWORD,adjust
+DOMAIN-KEYWORD,appsflyer
+DOMAIN-KEYWORD,amplitude
+DOMAIN-KEYWORD,mixpanel
+DOMAIN-KEYWORD,segment.io
+DOMAIN-KEYWORD,branch.io
+DOMAIN-KEYWORD,doubleclick
+DOMAIN-KEYWORD,googleadservices
+DOMAIN-KEYWORD,googlesyndication
+DOMAIN-KEYWORD,applovin
+DOMAIN-KEYWORD,applvn
+DOMAIN-KEYWORD,vungle
+DOMAIN-KEYWORD,rayjump
+DOMAIN-KEYWORD,ironsrc
+DOMAIN-KEYWORD,unityads
+DOMAIN-KEYWORD,mopub
+DOMAIN-KEYWORD,inmobi
+DOMAIN-KEYWORD,sentry.io
+DOMAIN-KEYWORD,bugsnag
 # Блокировка сетевой аналитики и динамических узлов Facebook
-DOMAIN-KEYWORD,netseer-ipaddr-assoc,REJECT
+DOMAIN-KEYWORD,netseer-ipaddr-assoc
 # Оно закроет любые сервисы внутри Meta, которые используют технологию NetSeer для отслеживания маршрутов и твоего IP.
-# DOMAIN-KEYWORD,netseer,REJECT
-# DOMAIN-KEYWORD,fbsbx,REJECT
-# DOMAIN-SUFFIX,fbcdn.net,REJECT
+# DOMAIN-KEYWORD,netseer
+# DOMAIN-KEYWORD,fbsbx
+# DOMAIN-SUFFIX,fbcdn.net
