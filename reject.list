@@ -1,25 +1,3 @@
-# Полная блокировка IPv6 трафика
-IP-CIDR,FC00::/7
-IP-CIDR,FE80::/10
-IP-CIDR,::/0
-
-# блокировка UDP на 443 порту
-# AND,((PROTOCOL,UDP),(DST-PORT,443))
-
-# блокировка UDP на 123 порту
-# AND,((PROTOCOL,UDP),(DST-PORT,123))
-
-# разрешаем DNS DIRECT на стандартном порту
-# AND,((PROTOCOL,UDP),(DST-PORT,53))
-
-# Блокировка всего остального UDP
-# AND,((PROTOCOL,UDP))
-
-# push apple
-# DOMAIN-SUFFIX,push.apple.com
-# DOMAIN-SUFFIX,courier.push.apple.com
-
-
 # Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 # Сервис логирования событий Firebase Analytics.
@@ -33,13 +11,11 @@ DOMAIN-KEYWORD,crashlytics
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 DOMAIN-KEYWORD,firebaseinstallations
 DOMAIN-KEYWORD,firebaselogging
-
 # блок доменов
 DOMAIN,alt-ad.mail.ru
 DOMAIN,rv.mail.ru
 DOMAIN,r0.mail.ru
 DOMAIN,ads.taxiaid.org
-
 # блок суффиксов
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,connect.facebook.net
@@ -95,7 +71,6 @@ DOMAIN-SUFFIX,telemetry.individual.githubcopilot.com
 DOMAIN-SUFFIX,moloco.com
 DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,mintegral.net
-
 # блок по ключевым словам
 DOMAIN-KEYWORD,mobile-metrica
 DOMAIN-KEYWORD,appmetrica
