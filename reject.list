@@ -106,3 +106,10 @@ DOMAIN-KEYWORD,netseer-ipaddr-assoc
 # DOMAIN-KEYWORD,netseer
 # DOMAIN-KEYWORD,fbsbx
 # DOMAIN-SUFFIX,fbcdn.net
+# взять из панели
+DOMAIN-SUFFIX,metricreceiver.cellrebel.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,prebid-server.rubiconproject.com
+DOMAIN-SUFFIX,census-app-x.scorecardresearch.com
+DOMAIN-SUFFIX,cdn.botfaqtor.ru
+DOMAIN-SUFFIX,cloudflareinsights.com
