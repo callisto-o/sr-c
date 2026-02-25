@@ -16,6 +16,8 @@ DOMAIN,ads.taxiaid.org
 DOMAIN,alt-ad.mail.ru
 DOMAIN,r0.mail.ru
 DOMAIN,rv.mail.ru
+DOMAIN,ogads-pa.clients6.google.com
+DOMAIN,ext.clickstream.sberbank.ru
 # блок суффиксов
 DOMAIN-SUFFIX,ad.adriver.ru
 DOMAIN-SUFFIX,ad.mail.ru
@@ -30,6 +32,7 @@ DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,apptracer.ru
+DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,browser-resources.s3.yandex.net
 DOMAIN-SUFFIX,care.yandex.ru
 DOMAIN-SUFFIX,connect.facebook.net
@@ -107,9 +110,14 @@ DOMAIN-KEYWORD,netseer-ipaddr-assoc
 # DOMAIN-KEYWORD,fbsbx
 # DOMAIN-SUFFIX,fbcdn.net
 # взять из панели
-DOMAIN-SUFFIX,metricreceiver.cellrebel.com
+DOMAIN-SUFFIX,ads.betweendigital.com
 DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-SUFFIX,prebid-server.rubiconproject.com
-DOMAIN-SUFFIX,census-app-x.scorecardresearch.com
+DOMAIN-SUFFIX,cdn-rtb.sape.ru
 DOMAIN-SUFFIX,cdn.botfaqtor.ru
+DOMAIN-SUFFIX,cdn.tds.bid
+DOMAIN-SUFFIX,census-app-x.scorecardresearch.com
 DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,event.northghost.com
+DOMAIN-SUFFIX,metricreceiver.cellrebel.com
+DOMAIN-SUFFIX,prebid-server.rubiconproject.com
+DOMAIN-SUFFIX,static.terratraf.com
