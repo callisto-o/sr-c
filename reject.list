@@ -78,6 +78,10 @@ DOMAIN-SUFFIX,uniproxy.alice.yandex.net
 DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,video-preview.s3.yandex.net
 DOMAIN-SUFFIX,vk-analytics.ru
+# новые
+DOMAIN,tc.mobile.yandex.net
+DOMAIN,authproxy.prod.yb.yandex.net
+DOMAIN,mob-manager-aws.mob.taxi.yandex.net
 # блок по ключевым словам
 DOMAIN-KEYWORD,adfox
 DOMAIN-KEYWORD,adjust
@@ -140,3 +144,5 @@ DOMAIN-SUFFIX,rezync.com
 DOMAIN-SUFFIX,thecatmachine.com
 DOMAIN-SUFFIX,x.blueduckredapple.com
 DOMAIN-SUFFIX,everestop.io
+DOMAIN-SUFFIX,bidmachine.io
+DOMAIN-SUFFIX,pangle.io
