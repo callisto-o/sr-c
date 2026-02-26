@@ -18,6 +18,7 @@ DOMAIN,r0.mail.ru
 DOMAIN,rv.mail.ru
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,ext.clickstream.sberbank.ru
+DOMAIN,adservice.google.com
 # блок суффиксов
 DOMAIN-SUFFIX,ad.adriver.ru
 DOMAIN-SUFFIX,ad.mail.ru
@@ -122,3 +123,20 @@ DOMAIN-SUFFIX,metricreceiver.cellrebel.com
 DOMAIN-SUFFIX,prebid-server.rubiconproject.com
 DOMAIN-SUFFIX,s.deepl.com
 DOMAIN-SUFFIX,static.terratraf.com
+DOMAIN-SUFFIX,api.rudderlabs.com
+DOMAIN-SUFFIX,a.wb.ru
+DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,rfihub.com
+DOMAIN-SUFFIX,contextual.media.net
+# Новые рекламные и аналитические домены из логов
+DOMAIN-SUFFIX,ad-score.com
+DOMAIN-SUFFIX,adsrvr.org
+DOMAIN-SUFFIX,bat.bing.com
+DOMAIN-SUFFIX,clarity.ms
+DOMAIN-SUFFIX,doubleverify.com
+DOMAIN-SUFFIX,js.adsrvr.org
+DOMAIN-SUFFIX,live.rezync.com
+DOMAIN-SUFFIX,rezync.com
+DOMAIN-SUFFIX,thecatmachine.com
+DOMAIN-SUFFIX,x.blueduckredapple.com
+DOMAIN-SUFFIX,everestop.io
