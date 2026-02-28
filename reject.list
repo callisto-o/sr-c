@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-KEYWORD,crashlytics
 # Firebase Installations Block
 # отправляет данные об устройстве, чтобы создать уникальный ID токен «установки»
-# при проблемах перевести в положение DIRECT
+# при проблемах перевести в положение DIRECT (или тут закомментировать)
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 DOMAIN-KEYWORD,firebaseinstallations
 DOMAIN-KEYWORD,firebaselogging
@@ -19,6 +19,10 @@ DOMAIN,rv.mail.ru
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,ext.clickstream.sberbank.ru
 DOMAIN,adservice.google.com
+DOMAIN,telemetry.dzen.ru
+DOMAIN,531121.ms.dzen.ru
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,westus-0.in.applicationinsights.azure.com
 # блок суффиксов
 DOMAIN-SUFFIX,ad.adriver.ru
 DOMAIN-SUFFIX,ad.mail.ru
