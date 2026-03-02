@@ -1,22 +1,24 @@
 # блок доменов
-DOMAIN,ads.taxiaid.org
-DOMAIN,alt-ad.mail.ru
-DOMAIN,r0.mail.ru
-DOMAIN,rv.mail.ru
-DOMAIN,ogads-pa.clients6.google.com
-DOMAIN,ext.clickstream.sberbank.ru
-DOMAIN,adservice.google.com
-DOMAIN,telemetry.dzen.ru
 DOMAIN,531121.ms.dzen.ru
-DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,westus-0.in.applicationinsights.azure.com
-DOMAIN,tc.mobile.yandex.net
+DOMAIN,ads.taxiaid.org
+DOMAIN,adservice.google.com
+DOMAIN,alt-ad.mail.ru
 DOMAIN,authproxy.prod.yb.yandex.net
-DOMAIN,mob-manager-aws.mob.taxi.yandex.net
-DOMAIN,venetia.iad.appboy.com
 DOMAIN,c.amazon-adsystem.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,ext.clickstream.sberbank.ru
+DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mediation.goog
+DOMAIN,mob-manager-aws.mob.taxi.yandex.net
+DOMAIN,ogads-pa.clients6.google.com
+DOMAIN,r0.mail.ru
+DOMAIN,rv.mail.ru
+DOMAIN,stat.okko.tv
+DOMAIN,tc.mobile.yandex.net
+DOMAIN,telemetry.dzen.ru
+DOMAIN,venetia.iad.appboy.com
+DOMAIN,westus-0.in.applicationinsights.azure.com
 # блок суффиксов
 DOMAIN-SUFFIX,a.wb.ru
 DOMAIN-SUFFIX,ad-score.com
@@ -46,6 +48,8 @@ DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appmetrica.yandex.com
 DOMAIN-SUFFIX,appmetrica.yandex.ru
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,apptracer.ru
 DOMAIN-SUFFIX,bat.bing.com
 DOMAIN-SUFFIX,bidmachine.io
