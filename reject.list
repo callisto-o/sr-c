@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,ad.adriver.ru
 DOMAIN-SUFFIX,ad.mail.ru
 DOMAIN-SUFFIX,adfox.ru
 DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,ads.adfox.ru
 DOMAIN-SUFFIX,ads.betweendigital.com
 DOMAIN-SUFFIX,ads.mail.ru
@@ -48,7 +49,6 @@ DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appmetrica.yandex.com
 DOMAIN-SUFFIX,appmetrica.yandex.ru
 DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,apptracer.ru
 DOMAIN-SUFFIX,bat.bing.com
@@ -68,7 +68,7 @@ DOMAIN-SUFFIX,contextual.media.net
 DOMAIN-SUFFIX,dit.whatsapp.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,doubleverify.com
-DOMAIN-SUFFIX,dsca.akamaiedge.net
+DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,event.northghost.com
 DOMAIN-SUFFIX,everestop.io
 DOMAIN-SUFFIX,firebase-settings.googleapis.com
