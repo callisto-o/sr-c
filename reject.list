@@ -5,6 +5,8 @@ DOMAIN,adservice.google.com
 DOMAIN,alt-ad.mail.ru
 DOMAIN,authproxy.prod.yb.yandex.net
 DOMAIN,c.amazon-adsystem.com
+DOMAIN,ca.iadsdk.apple.com
+DOMAIN,metrics.icloud.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,ext.clickstream.sberbank.ru
 DOMAIN,firebase-settings.crashlytics.com
@@ -27,6 +29,8 @@ DOMAIN-SUFFIX,ad.mail.ru
 DOMAIN-SUFFIX,adfox.ru
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adjust.world
 DOMAIN-SUFFIX,ads.adfox.ru
 DOMAIN-SUFFIX,ads.betweendigital.com
 DOMAIN-SUFFIX,ads.mail.ru
