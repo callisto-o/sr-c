@@ -40,8 +40,8 @@ DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,an.yandex.ru
 DOMAIN-SUFFIX,analytics.tiktok.com
-DOMAIN-SUFFIX,api.browser.yandex.com
-DOMAIN-SUFFIX,api.browser.yandex.ru
+# DOMAIN-SUFFIX,api.browser.yandex.com
+# DOMAIN-SUFFIX,api.browser.yandex.ru
 DOMAIN-SUFFIX,api.plus.yandex.net
 DOMAIN-SUFFIX,api.rudderlabs.com
 DOMAIN-SUFFIX,app-analytics-services.com
