@@ -21,6 +21,8 @@ DOMAIN,tc.mobile.yandex.net
 DOMAIN,telemetry.dzen.ru
 DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
+DOMAIN,cdn.intergient.com
+DOMAIN,config.playwire.com
 # блок суффиксов
 DOMAIN-SUFFIX,a.wb.ru
 DOMAIN-SUFFIX,ad-score.com
