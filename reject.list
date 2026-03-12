@@ -22,6 +22,10 @@ DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
 DOMAIN,cdn.intergient.com
 DOMAIN,config.playwire.com
+# tiktok логи и мониторинг
+DOMAIN,rtlog-ru.tiktokv.com,REJECT
+DOMAIN,mon-ru.tiktokv.com,REJECT
+DOMAIN,log16-platform-ycru.tiktokv.com,REJECT
 # блок суффиксов
 DOMAIN-SUFFIX,a.wb.ru
 DOMAIN-SUFFIX,ad-score.com
@@ -151,10 +155,10 @@ DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 # Firebase Installations Block отправляет данные об устройстве, чтобы создать уникальный ID токен «установки»
 # при проблемах перевести в положение DIRECT (или тут закомментировать)
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+# новый - если что удалить
+DOMAIN,device-provisioning.googleapis.com,REJECT
 # Блокировка сетевой аналитики и динамических узлов Facebook
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
-
-
