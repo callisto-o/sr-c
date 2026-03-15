@@ -23,9 +23,11 @@ DOMAIN,westus-0.in.applicationinsights.azure.com
 DOMAIN,cdn.intergient.com
 DOMAIN,config.playwire.com
 # tiktok логи и мониторинг
-DOMAIN,rtlog-ru.tiktokv.com,REJECT
-DOMAIN,mon-ru.tiktokv.com,REJECT
-DOMAIN,log16-platform-ycru.tiktokv.com,REJECT
+DOMAIN,rtlog-ru.tiktokv.com
+DOMAIN,mon-ru.tiktokv.com
+DOMAIN,log16-platform-ycru.tiktokv.com
+# новый - если что удалить
+DOMAIN,device-provisioning.googleapis.com
 # блок суффиксов
 DOMAIN-SUFFIX,a.wb.ru
 DOMAIN-SUFFIX,ad-score.com
@@ -34,12 +36,16 @@ DOMAIN-SUFFIX,ad.mail.ru
 DOMAIN-SUFFIX,adfox.ru
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,adjust.net
 DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adjust.online
 DOMAIN-SUFFIX,adjust.world
 DOMAIN-SUFFIX,ads.adfox.ru
 DOMAIN-SUFFIX,ads.betweendigital.com
 DOMAIN-SUFFIX,ads.mail.ru
 DOMAIN-SUFFIX,adsrvr.org
+DOMAIN-SUFFIX,advenet.com
+DOMAIN-SUFFIX,affise.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amplitude.com
@@ -155,8 +161,6 @@ DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 # Firebase Installations Block отправляет данные об устройстве, чтобы создать уникальный ID токен «установки»
 # при проблемах перевести в положение DIRECT (или тут закомментировать)
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
-# новый - если что удалить
-DOMAIN,device-provisioning.googleapis.com,REJECT
 # Блокировка сетевой аналитики и динамических узлов Facebook
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
