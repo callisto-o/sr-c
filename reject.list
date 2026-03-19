@@ -150,6 +150,9 @@ DOMAIN-SUFFIX,video-preview.s3.yandex.net
 DOMAIN-SUFFIX,vk-analytics.ru
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,webvisor.com
+DOMAIN-SUFFIX,webvisor.org
+DOMAIN-SUFFIX,top.mail.ru
+DOMAIN-SUFFIX,counter.yadro.ru
 DOMAIN-SUFFIX,x.blueduckredapple.com
 DOMAIN-SUFFIX,yandexadexchange.net
 # Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play
