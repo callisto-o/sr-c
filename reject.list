@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,an.yandex.ru
 DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,analytics.dns-shop.ru
 # DOMAIN-SUFFIX,api.browser.yandex.com
 # DOMAIN-SUFFIX,api.browser.yandex.ru
 DOMAIN-SUFFIX,api.plus.yandex.net
@@ -81,6 +82,11 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,connect.facebook.net
 DOMAIN-SUFFIX,contextual.media.net
 DOMAIN-SUFFIX,dit.whatsapp.net
+DOMAIN-SUFFIX,tracking.diginetica.net
+DOMAIN-SUFFIX,telemetry.jivosite.com
+DOMAIN-SUFFIX,track.adspire.io
+DOMAIN-SUFFIX,cdn-b.notsy.io
+DOMAIN-SUFFIX,edge-mqtt.facebook.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,akamaiedge.net
