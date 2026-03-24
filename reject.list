@@ -22,6 +22,9 @@ DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
 DOMAIN,cdn.intergient.com
 DOMAIN,config.playwire.com
+DOMAIN,journal-bt.wildberries.ru
+DOMAIN,eh.vk.com
+DOMAIN,adfstat.yandex.ru
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
