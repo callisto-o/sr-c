@@ -25,6 +25,9 @@ DOMAIN,config.playwire.com
 DOMAIN,journal-bt.wildberries.ru
 DOMAIN,eh.vk.com
 DOMAIN,adfstat.yandex.ru
+DOMAIN,st.top100.ru
+DOMAIN,counter.yadro.ru
+DOMAIN,r0.mradx.net
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
@@ -161,9 +164,12 @@ DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,webvisor.com
 DOMAIN-SUFFIX,webvisor.org
 DOMAIN-SUFFIX,top.mail.ru
-DOMAIN-SUFFIX,counter.yadro.ru
 DOMAIN-SUFFIX,x.blueduckredapple.com
 DOMAIN-SUFFIX,yandexadexchange.net
+DOMAIN-SUFFIX,stats.avito.ru
+DOMAIN-SUFFIX,exchange.buzzoola.com
+DOMAIN-SUFFIX,sdk-api.apptracer.ru
+DOMAIN-SUFFIX,cdn1.moe.video
 # Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 # Сервис логирования событий Firebase Analytics.
