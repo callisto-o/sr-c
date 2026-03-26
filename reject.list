@@ -3,7 +3,8 @@ DOMAIN,531121.ms.dzen.ru
 DOMAIN,ads.taxiaid.org
 DOMAIN,adservice.google.com
 DOMAIN,alt-ad.mail.ru
-DOMAIN,authproxy.prod.yb.yandex.net
+# yandex bank (pay)
+# DOMAIN,authproxy.prod.yb.yandex.net
 DOMAIN,c.amazon-adsystem.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,metrics.icloud.com
@@ -12,7 +13,8 @@ DOMAIN,ext.clickstream.sberbank.ru
 DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mediation.goog
-DOMAIN,mob-manager-aws.mob.taxi.yandex.net
+# Менеджер маршрутизации и управления такси yandex GO
+# DOMAIN,mob-manager-aws.mob.taxi.yandex.net
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,r0.mail.ru
 DOMAIN,rv.mail.ru
@@ -60,7 +62,8 @@ DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.dns-shop.ru
 # DOMAIN-SUFFIX,api.browser.yandex.com
 # DOMAIN-SUFFIX,api.browser.yandex.ru
-DOMAIN-SUFFIX,api.plus.yandex.net
+# DOMAIN-SUFFIX,api.plus.yandex.net
+# DOMAIN-SUFFIX,plus.yandex.net
 DOMAIN-SUFFIX,api.rudderlabs.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
@@ -76,7 +79,9 @@ DOMAIN-SUFFIX,apptracer.ru
 DOMAIN-SUFFIX,bat.bing.com
 DOMAIN-SUFFIX,bidmachine.io
 DOMAIN-SUFFIX,branch.io
-DOMAIN-SUFFIX,browser-resources.s3.yandex.net
+# Облачное хранилище (S3) для статических ресурсов
+# картинки, иконки, шрифты, скрипты для встроенного браузера или (web-view)
+# DOMAIN-SUFFIX,browser-resources.s3.yandex.net
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,care.yandex.ru
 DOMAIN-SUFFIX,cdn-rtb.sape.ru
@@ -112,7 +117,8 @@ DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,is.com
 DOMAIN-SUFFIX,js.adsrvr.org
 DOMAIN-SUFFIX,landing-resources.s3.yandex.net
-DOMAIN-SUFFIX,lavka.yandex.net
+# Главный API-шлюз Яндекс Лавки
+# DOMAIN-SUFFIX,lavka.yandex.net
 DOMAIN-SUFFIX,live.rezync.com
 DOMAIN-SUFFIX,log.strm.yandex.ru
 DOMAIN-SUFFIX,mc.yandex.ru
@@ -130,7 +136,6 @@ DOMAIN-SUFFIX,mradx.net
 DOMAIN-SUFFIX,music.yandex.ru
 DOMAIN-SUFFIX,narwhal.yandex.net
 DOMAIN-SUFFIX,pangle.io
-DOMAIN-SUFFIX,plus.yandex.net
 DOMAIN-SUFFIX,prebid-server.rubiconproject.com
 DOMAIN-SUFFIX,radar.imgsmail.ru
 DOMAIN-SUFFIX,rayjump.com
