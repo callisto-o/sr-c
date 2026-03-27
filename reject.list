@@ -15,6 +15,7 @@ DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mediation.goog
 # Менеджер маршрутизации и управления такси yandex GO
 # DOMAIN,mob-manager-aws.mob.taxi.yandex.net
+# tc.mobile.yandex.net
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,r0.mail.ru
 DOMAIN,rv.mail.ru
@@ -30,6 +31,10 @@ DOMAIN,adfstat.yandex.ru
 DOMAIN,st.top100.ru
 DOMAIN,counter.yadro.ru
 DOMAIN,r0.mradx.net
+DOMAIN,events-api.soundcloud.com
+DOMAIN,api.segment.io
+DOMAIN,dss.hybrid.ai
+DOMAIN,featureassets.org
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
