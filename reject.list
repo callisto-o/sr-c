@@ -13,6 +13,7 @@ DOMAIN,ext.clickstream.sberbank.ru
 DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mediation.goog
+DOMAIN,ogads-pa.googleapis.com
 # Менеджер маршрутизации и управления такси yandex GO
 # DOMAIN,mob-manager-aws.mob.taxi.yandex.net
 # tc.mobile.yandex.net
@@ -103,6 +104,7 @@ DOMAIN-SUFFIX,telemetry.jivosite.com
 DOMAIN-SUFFIX,track.adspire.io
 DOMAIN-SUFFIX,cdn-b.notsy.io
 DOMAIN-SUFFIX,edge-mqtt.facebook.com
+DOMAIN-SUFFIX,tiktokpangle.us
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,akamaiedge.net
@@ -146,7 +148,6 @@ DOMAIN-SUFFIX,radar.imgsmail.ru
 DOMAIN-SUFFIX,rayjump.com
 DOMAIN-SUFFIX,rb.mail.ru
 DOMAIN-SUFFIX,redirect.appmetrica.yandex.com
-DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN-SUFFIX,report.appmetrica.yandex.net
 DOMAIN-SUFFIX,rezync.com
 DOMAIN-SUFFIX,rfihub.com
@@ -192,5 +193,7 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 # Блокировка сетевой аналитики и динамических узлов Facebook
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
+# Apple описывает App Attest как сервис, который помогает проверять целостность приложения и снижать мошенническое использование; 
+# DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
