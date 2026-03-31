@@ -3,39 +3,40 @@ DOMAIN,531121.ms.dzen.ru
 DOMAIN,ads.taxiaid.org
 DOMAIN,adservice.google.com
 DOMAIN,alt-ad.mail.ru
-# yandex bank (pay)
-# DOMAIN,authproxy.prod.yb.yandex.net
 DOMAIN,c.amazon-adsystem.com
 DOMAIN,ca.iadsdk.apple.com
-DOMAIN,metrics.icloud.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,ext.clickstream.sberbank.ru
 DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
+DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
+DOMAIN,metrics.icloud.com
 DOMAIN,ogads-pa.googleapis.com
+# yandex bank (pay)
+# DOMAIN,authproxy.prod.yb.yandex.net
 # Менеджер маршрутизации и управления такси yandex GO
 # DOMAIN,mob-manager-aws.mob.taxi.yandex.net
 # tc.mobile.yandex.net
+DOMAIN,adfstat.yandex.ru
+DOMAIN,api.segment.io
+DOMAIN,cdn.intergient.com
+DOMAIN,config.playwire.com
+DOMAIN,counter.yadro.ru
+DOMAIN,dss.hybrid.ai
+DOMAIN,eh.vk.com
+DOMAIN,events-api.soundcloud.com
+DOMAIN,featureassets.org
+DOMAIN,journal-bt.wildberries.ru
 DOMAIN,ogads-pa.clients6.google.com
 DOMAIN,r0.mail.ru
+DOMAIN,r0.mradx.net
 DOMAIN,rv.mail.ru
+DOMAIN,st.top100.ru
 DOMAIN,stat.okko.tv
 DOMAIN,telemetry.dzen.ru
 DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
-DOMAIN,cdn.intergient.com
-DOMAIN,config.playwire.com
-DOMAIN,journal-bt.wildberries.ru
-DOMAIN,eh.vk.com
-DOMAIN,adfstat.yandex.ru
-DOMAIN,st.top100.ru
-DOMAIN,counter.yadro.ru
-DOMAIN,r0.mradx.net
-DOMAIN,events-api.soundcloud.com
-DOMAIN,api.segment.io
-DOMAIN,dss.hybrid.ai
-DOMAIN,featureassets.org
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
@@ -60,16 +61,13 @@ DOMAIN-SUFFIX,ads.mail.ru
 DOMAIN-SUFFIX,adsrvr.org
 DOMAIN-SUFFIX,advenet.com
 DOMAIN-SUFFIX,affise.com
+DOMAIN-SUFFIX,ahrefs.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,an.yandex.ru
-DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.dns-shop.ru
-# DOMAIN-SUFFIX,api.browser.yandex.com
-# DOMAIN-SUFFIX,api.browser.yandex.ru
-# DOMAIN-SUFFIX,api.plus.yandex.net
-# DOMAIN-SUFFIX,plus.yandex.net
+DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,api.rudderlabs.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
@@ -124,8 +122,6 @@ DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,is.com
 DOMAIN-SUFFIX,js.adsrvr.org
 DOMAIN-SUFFIX,landing-resources.s3.yandex.net
-# Главный API-шлюз Яндекс Лавки
-# DOMAIN-SUFFIX,lavka.yandex.net
 DOMAIN-SUFFIX,live.rezync.com
 DOMAIN-SUFFIX,log.strm.yandex.ru
 DOMAIN-SUFFIX,mc.yandex.ru
@@ -194,6 +190,6 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
 # Apple описывает App Attest как сервис, который помогает проверять целостность приложения и снижать мошенническое использование; 
-# DOMAIN-SUFFIX,register.appattest.apple.com
+DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
