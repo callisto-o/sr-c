@@ -13,6 +13,7 @@ DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
 DOMAIN,metrics.icloud.com
 DOMAIN,ogads-pa.googleapis.com
+DOMAIN,unified.adsafeprotected.com
 # yandex bank (pay)
 # DOMAIN,authproxy.prod.yb.yandex.net
 # Менеджер маршрутизации и управления такси yandex GO
@@ -38,6 +39,7 @@ DOMAIN,telemetry.dzen.ru
 DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
 DOMAIN,spade.twitch.tv
+DOMAIN,audid-api.taobao.com:
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
