@@ -37,6 +37,7 @@ DOMAIN,stat.okko.tv
 DOMAIN,telemetry.dzen.ru
 DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
+DOMAIN,spade.twitch.tv
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
