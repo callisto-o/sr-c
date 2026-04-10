@@ -197,3 +197,5 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 # DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
+# блок DEST-PORT
+DST-PORT,5222
