@@ -17,6 +17,12 @@ DOMAIN,metrics.icloud.com
 DOMAIN,ogads-pa.googleapis.com
 DOMAIN,static-mon.yandex.net
 DOMAIN,unified.adsafeprotected.com
+DOMAIN,h-adashx4ae.ut.taobao.com
+DOMAIN,fourier.aliexpress.com
+DOMAIN,ccn5xn.tdum.alibaba.com
+DOMAIN,events.tvtime.co
+# новый поддомен apple
+DOMAIN,api-adservices.apple.com
 # yandex bank (pay)
 # DOMAIN,authproxy.prod.yb.yandex.net
 # Менеджер маршрутизации и управления такси yandex GO
