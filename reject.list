@@ -5,7 +5,6 @@ DOMAIN,adservice.google.com
 DOMAIN,alive.github.com
 DOMAIN,alt-ad.mail.ru
 DOMAIN,c.amazon-adsystem.com
-DOMAIN,ca.iadsdk.apple.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,csp.yandex.net
 DOMAIN,ext.clickstream.sberbank.ru
@@ -13,7 +12,10 @@ DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
-DOMAIN,metrics.icloud.com
+# DOMAIN,metrics.icloud.com
+# DOMAIN-SUFFIX,iadsdk.apple.com
+# DOMAIN,ca.iadsdk.apple.com
+# DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN,ogads-pa.googleapis.com
 DOMAIN,static-mon.yandex.net
 DOMAIN,unified.adsafeprotected.com
@@ -127,7 +129,6 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,graph.facebook.com
-DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,is.com
 DOMAIN-SUFFIX,js.adsrvr.org
@@ -200,7 +201,6 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
 # Apple описывает App Attest как сервис, который помогает проверять целостность приложения и снижать мошенническое использование; 
-# DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
 # блок DEST-PORT
