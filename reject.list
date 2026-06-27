@@ -12,6 +12,16 @@ DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
+# SoundCloud
+DOMAIN,sb.scorecardresearch.com
+DOMAIN,cloud.aditude.io
+DOMAIN,cache.prebid-server.com
+DOMAIN,telemetry.soundcloud.com
+DOMAIN,delivery-cdn-cf.adswizz.com
+DOMAIN,events-api.soundcloud.com
+#DOMAIN,
+#DOMAIN,
+#
 # DOMAIN,metrics.icloud.com
 # DOMAIN-SUFFIX,iadsdk.apple.com
 # DOMAIN,ca.iadsdk.apple.com
