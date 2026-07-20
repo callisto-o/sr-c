@@ -128,7 +128,7 @@ DOMAIN-SUFFIX,branch.io
 # Облачное хранилище (S3) для статических ресурсов
 # картинки, иконки, шрифты, скрипты для встроенного браузера или (web-view)
 # DOMAIN-SUFFIX,browser-resources.s3.yandex.net
-DOMAIN-SUFFIX,akamaiedge.net
+# DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,care.yandex.ru
 DOMAIN-SUFFIX,cdn-b.notsy.io
@@ -232,4 +232,4 @@ DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
 # блок DEST-PORT
-DST-PORT,5222
+# DST-PORT,5222
