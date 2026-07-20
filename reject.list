@@ -129,9 +129,6 @@ DOMAIN-SUFFIX,branch.io
 # картинки, иконки, шрифты, скрипты для встроенного браузера или (web-view)
 # DOMAIN-SUFFIX,browser-resources.s3.yandex.net
 # DOMAIN-SUFFIX,akamaiedge.net
-# потом удалить если что
-DOMAIN-SUFFIX,amazonaws.com
-#
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,care.yandex.ru
 DOMAIN-SUFFIX,cdn-b.notsy.io
