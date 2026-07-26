@@ -9,7 +9,6 @@
 #DOMAIN,
 #DOMAIN,
 #DOMAIN,
-#DOMAIN,
 # блок доменов
 DOMAIN,531121.ms.dzen.ru
 DOMAIN,ads.taxiaid.org
@@ -24,6 +23,8 @@ DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
+# spotify
+DOMAIN,aet.spotify.com
 # SoundCloud
 DOMAIN,sb.scorecardresearch.com
 DOMAIN,cloud.aditude.io
