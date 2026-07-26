@@ -1,3 +1,15 @@
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
+#DOMAIN,
 # блок доменов
 DOMAIN,531121.ms.dzen.ru
 DOMAIN,ads.taxiaid.org
@@ -20,21 +32,10 @@ DOMAIN,telemetry.soundcloud.com
 DOMAIN,delivery-cdn-cf.adswizz.com
 DOMAIN,events-api.soundcloud.com
 DOMAIN,promoted.soundcloud.com
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
+# kakaotalk и wChat
+DOMAIN,webid.ad.daum.net
+DOMAIN,serv.ds.kakao.com
+DOMAIN,aem-kakao-collector.onkakao.net
 #
 # DOMAIN,metrics.icloud.com
 # DOMAIN-SUFFIX,iadsdk.apple.com
