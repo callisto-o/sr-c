@@ -32,6 +32,19 @@ DOMAIN,firebase-settings.googleapis.com
 # DOMAIN,api-adservices.apple.com
 
 #DOMAIN,
+
+# Новые
+DOMAIN,cdn.mobilefuse.com
+DOMAIN,cdn2.inner-active.mobi
+DOMAIN,sac.presage.io
+DOMAIN,sdkc.vervegroupinc.net
+DOMAIN,skadnetworks.fyber.com
+DOMAIN,s3-analytics-events.easybrain.com
+DOMAIN,ets.easybrain.com
+DOMAIN,cross-promo-provider.easybrain.com
+DOMAIN,game-analytics.playrix.com
+DOMAIN,stats.playrix.com
+
 # RudderStack (fatsecret)
 DOMAIN,api.rudderlabs.com
 # Clue (женский календарь менструации) сборщик событий
@@ -99,6 +112,7 @@ DOMAIN,browser-intake-datadoghq.eu
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
 DOMAIN,log16-platform-ycru.tiktokv.com
+DOMAIN,lf-static.tiktokpangle-cdn-us.com
 # новый - если что удалить
 DOMAIN,device-provisioning.googleapis.com
 DOMAIN,eye.targetads.io
