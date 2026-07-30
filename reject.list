@@ -1,15 +1,42 @@
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
-#DOMAIN,
 # блок доменов
+#########
+#########
+#########
+# Передача журналов событий и пользовательской аналитики (телеметрия)
+DOMAIN,firebaselogging-pa.googleapis.com
+
+# Получение параметров для службы фиксации сбоев (Crashlytics)+
+DOMAIN,firebase-settings.crashlytics.com
+
+# Отправка отчетов о критических ошибках и вылетах приложения.
+DOMAIN,crashlyticsreports-pa.googleapis.com
+
+# Отвечает за загрузку базовых служебных настроек для внутренних модулей Firebase.
+DOMAIN,firebase-settings.googleapis.com
+
+# === Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play ===
+# DOMAIN,firebaseremoteconfig.googleapis.com
+
+# === Firebase Installations Block отправляет данные об устройстве, чтобы создать уникальный ID токен «установки» ====
+# DOMAIN,firebaseinstallations.googleapis.com
+
+
+#########
+#########
+#########
+# DOMAIN,metrics.icloud.com
+# DOMAIN-SUFFIX,iadsdk.apple.com
+# DOMAIN,ca.iadsdk.apple.com
+# DOMAIN-SUFFIX,register.appattest.apple.com
+# новый поддомен apple
+# DOMAIN,api-adservices.apple.com
+
+#DOMAIN,
+# RudderStack (fatsecret)
+DOMAIN,api.rudderlabs.com
+# Clue (женский календарь менструации) сборщик событий
+DOMAIN,collector.clue.run
+# 
 DOMAIN,531121.ms.dzen.ru
 DOMAIN,ads.taxiaid.org
 DOMAIN,adservice.google.com
@@ -19,7 +46,6 @@ DOMAIN,c.amazon-adsystem.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,csp.yandex.net
 DOMAIN,ext.clickstream.sberbank.ru
-DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,mads.amazon-adsystem.com
 DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
@@ -38,10 +64,6 @@ DOMAIN,webid.ad.daum.net
 DOMAIN,serv.ds.kakao.com
 DOMAIN,aem-kakao-collector.onkakao.net
 #
-# DOMAIN,metrics.icloud.com
-# DOMAIN-SUFFIX,iadsdk.apple.com
-# DOMAIN,ca.iadsdk.apple.com
-# DOMAIN-SUFFIX,register.appattest.apple.com
 DOMAIN,ogads-pa.googleapis.com
 DOMAIN,static-mon.yandex.net
 DOMAIN,unified.adsafeprotected.com
@@ -51,13 +73,6 @@ DOMAIN,ccn5xn.tdum.alibaba.com
 DOMAIN,events.tvtime.co
 DOMAIN,events.split.io
 DOMAIN,muf.app-ads-services.com
-# новый поддомен apple
-# DOMAIN,api-adservices.apple.com
-# yandex bank (pay)
-# DOMAIN,authproxy.prod.yb.yandex.net
-# Менеджер маршрутизации и управления такси yandex GO
-# DOMAIN,mob-manager-aws.mob.taxi.yandex.net
-# tc.mobile.yandex.net
 DOMAIN,adfstat.yandex.ru
 DOMAIN,api.segment.io
 DOMAIN,audid-api.taobao.com
@@ -79,6 +94,7 @@ DOMAIN,stat.okko.tv
 DOMAIN,telemetry.dzen.ru
 DOMAIN,venetia.iad.appboy.com
 DOMAIN,westus-0.in.applicationinsights.azure.com
+DOMAIN,browser-intake-datadoghq.eu
 # tiktok логи и мониторинг
 DOMAIN,rtlog-ru.tiktokv.com
 DOMAIN,mon-ru.tiktokv.com
@@ -112,7 +128,6 @@ DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,an.yandex.ru
 DOMAIN-SUFFIX,analytics.dns-shop.ru
 DOMAIN-SUFFIX,analytics.tiktok.com
-DOMAIN-SUFFIX,api.rudderlabs.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appboy.com
@@ -127,12 +142,10 @@ DOMAIN-SUFFIX,apptracer.ru
 DOMAIN-SUFFIX,bat.bing.com
 DOMAIN-SUFFIX,bidmachine.io
 DOMAIN-SUFFIX,branch.io
-# Облачное хранилище (S3) для статических ресурсов
-# картинки, иконки, шрифты, скрипты для встроенного браузера или (web-view)
-# DOMAIN-SUFFIX,browser-resources.s3.yandex.net
+DOMAIN-SUFFIX,braze.eu
 # DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,bugsnag.com
-DOMAIN-SUFFIX,care.yandex.ru
+# DOMAIN-SUFFIX,care.yandex.ru
 DOMAIN-SUFFIX,cdn-b.notsy.io
 DOMAIN-SUFFIX,cdn-rtb.sape.ru
 DOMAIN-SUFFIX,cdn.botfaqtor.ru
@@ -150,7 +163,6 @@ DOMAIN-SUFFIX,edge-mqtt.facebook.com
 DOMAIN-SUFFIX,event.northghost.com
 DOMAIN-SUFFIX,everestop.io
 DOMAIN-SUFFIX,exchange.buzzoola.com
-DOMAIN-SUFFIX,firebase-settings.googleapis.com
 DOMAIN-SUFFIX,frontend.vh.yandex.ru
 DOMAIN-SUFFIX,gloryads.ru
 DOMAIN-SUFFIX,google-analytics.com
@@ -218,15 +230,7 @@ DOMAIN-SUFFIX,webvisor.com
 DOMAIN-SUFFIX,webvisor.org
 DOMAIN-SUFFIX,x.blueduckredapple.com
 DOMAIN-SUFFIX,yandexadexchange.net
-# Позволяет разработчикам изменять внешний вид или поведение приложения без выпуска обновления в App Store/Google Play
-DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
-# Сервис логирования событий Firebase Analytics.
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
-# Отправка отчетов о критических ошибках и вылетах приложения.
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
-# Firebase Installations Block отправляет данные об устройстве, чтобы создать уникальный ID токен «установки»
-# при проблемах перевести в положение DIRECT (или тут закомментировать)
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+
 # Блокировка сетевой аналитики и динамических узлов Facebook
 # для блокировки этого рода доменов
 # 24a93d23-cb31-4c60-a59f-1c586764aca9-netseer-ipaddr-assoc.xy.fbcdn.net
