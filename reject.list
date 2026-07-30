@@ -124,6 +124,8 @@ DOMAIN,lf-static.tiktokpangle-cdn-us.com
 DOMAIN,device-provisioning.googleapis.com
 DOMAIN,eye.targetads.io
 DOMAIN,api.a.mts.ru
+DOMAIN,adjust-callback.candlestick.com
+
 # блок суффиксов
 DOMAIN-SUFFIX,a.wb.ru
 DOMAIN-SUFFIX,ad-score.com
