@@ -44,6 +44,13 @@ DOMAIN,ets.easybrain.com
 DOMAIN,cross-promo-provider.easybrain.com
 DOMAIN,game-analytics.playrix.com
 DOMAIN,stats.playrix.com
+# новые второй заход
+DOMAIN,edge.safedk.com
+DOMAIN,ep2.facebook.com
+DOMAIN,xp.apple.com
+DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,i18n-pglstatp.com
+DOMAIN-SUFFIX,isnssdk.com
 
 # RudderStack (fatsecret)
 DOMAIN,api.rudderlabs.com
