@@ -71,7 +71,8 @@ DOMAIN,mcs-va.tiktokv.com
 DOMAIN,mediation.goog
 # spotify
 DOMAIN,aet.spotify.com
-# SoundCloud
+
+# SoundCloud Ads & Analytics
 DOMAIN,sb.scorecardresearch.com
 DOMAIN,cloud.aditude.io
 DOMAIN,cache.prebid-server.com
@@ -80,21 +81,22 @@ DOMAIN,delivery-cdn-cf.adswizz.com
 DOMAIN,events-api.soundcloud.com
 DOMAIN,promoted.soundcloud.com
 
-# SoundCloud Ads & Analytics
-DOMAIN-SUFFIX,imasdk.googleapis.com
-DOMAIN-SUFFIX,moengage.com
 DOMAIN,sdk-04.moengage.com
-DOMAIN-SUFFIX,facebook.com
+DOMAIN,api.snapkit.com
+DOMAIN,census-app-x.scorecardresearch.com
 DOMAIN,ep2.facebook.com
 DOMAIN,ep7.facebook.com
-DOMAIN,api.snapkit.com
+
+DOMAIN-SUFFIX,imasdk.googleapis.com
+DOMAIN-SUFFIX,moengage.com
 DOMAIN-SUFFIX,cookielaw.org
 DOMAIN-SUFFIX,onetrust.com
-# 
 DOMAIN-SUFFIX,adswizz.com
 DOMAIN-SUFFIX,segment.com
-
-
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,scorecardresearch.com
+#
+#
 # kakaotalk и wChat
 DOMAIN,webid.ad.daum.net
 DOMAIN,serv.ds.kakao.com
@@ -117,7 +119,6 @@ DOMAIN,config.playwire.com
 DOMAIN,counter.yadro.ru
 DOMAIN,dss.hybrid.ai
 DOMAIN,eh.vk.com
-DOMAIN,events-api.soundcloud.com
 DOMAIN,featureassets.org
 DOMAIN,journal-bt.wildberries.ru
 DOMAIN,ogads-pa.clients6.google.com
@@ -190,7 +191,6 @@ DOMAIN-SUFFIX,cdn-rtb.sape.ru
 DOMAIN-SUFFIX,cdn.botfaqtor.ru
 DOMAIN-SUFFIX,cdn.tds.bid
 DOMAIN-SUFFIX,cdn1.moe.video
-DOMAIN-SUFFIX,census-app-x.scorecardresearch.com
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,connect.facebook.net
