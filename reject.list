@@ -79,6 +79,22 @@ DOMAIN,telemetry.soundcloud.com
 DOMAIN,delivery-cdn-cf.adswizz.com
 DOMAIN,events-api.soundcloud.com
 DOMAIN,promoted.soundcloud.com
+
+# SoundCloud Ads & Analytics
+DOMAIN-SUFFIX,imasdk.googleapis.com
+DOMAIN-SUFFIX,moengage.com
+DOMAIN,sdk-04.moengage.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN,ep2.facebook.com
+DOMAIN,ep7.facebook.com
+DOMAIN,api.snapkit.com
+DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,onetrust.com
+# 
+DOMAIN-SUFFIX,adswizz.com
+DOMAIN-SUFFIX,segment.com
+
+
 # kakaotalk и wChat
 DOMAIN,webid.ad.daum.net
 DOMAIN,serv.ds.kakao.com
